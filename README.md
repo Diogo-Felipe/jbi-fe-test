@@ -7,8 +7,9 @@
 │   ├── __mock__
 │   ├── components
 │   │   ├── ComponentsList
-│   │   ├── SearchBar
+│   │   └── SearchBar
 │   └── styles
+└──
 ```
 
 - **\_\_mock\_\_**: contains the mock structure used to generate the list. In a real life project, it could be a Graphql Return, a REST call return etc.
