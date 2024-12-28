@@ -1,5 +1,21 @@
 # JBI - FRONTEND TEST
 
+## Basic Structure
+
+```md
+├── src
+│   ├── __mock__
+│   ├── components
+│   │   ├── ComponentsList
+│   │   ├── SearchBar
+│   └── styles
+```
+
+- **\_\_mock\_\_**: contains the mock structure used to generate the list. In a real life project, it could be a Graphql Return, a REST call return etc.
+- **components**: here lives the core of the test. I divided it in two components for better organization - ComponentsList and SearchBar. ComponentsList has all the behavior for this test. In a real life project, part of the behavior could live in a BFF or helpers.
+- **styles**: I added this styles global directory to give more flexibility and organization for the styles (specially colors). Again, in a real life project this could be a theme provided to the application or even come from a BFF. 
+
+
 ## Tech Stack
 
 Core:
