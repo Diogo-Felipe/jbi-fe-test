@@ -83,7 +83,7 @@ const ComponentList = ({ data }) => {
                 selected={selectedCategory === category}
                 onClick={() => handleSelectCategory(category)}
               >
-                {category} {categoryCount(category)}
+                {category} ({categoryCount(category)})
               </CategoryItem>
             ))}
           </CategoriesList>

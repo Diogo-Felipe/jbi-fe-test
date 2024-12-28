@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { globalColors } from '@/styles/colors';
 
 export const Container = styled.div`
-  width: 45%;
+  width: 100%;
   min-height: 50%;
 
   padding: 16px 8px;
@@ -46,13 +46,15 @@ export const CategoryItem = styled.button`
   align-items: center;
 
   width: 10em;
-  height: 2em;
+  height: 2.5em;
 
   margin-bottom: 0.5em;
 
   background-color: ${(props) => (props?.selected ? globalColors.secondary : 'transparent')};
   border-radius: 0;
+
   color: black;
+  text-align: left;
 `;
 
 export const ComponentsSection = styled.div`
@@ -81,7 +83,7 @@ export const ComponentItem = styled.div`
   align-items: center;
 
   width: 7em;
-  height: 2em;
+  height: 2.5em;
 
   line-height: 1em;
   text-align: center;
